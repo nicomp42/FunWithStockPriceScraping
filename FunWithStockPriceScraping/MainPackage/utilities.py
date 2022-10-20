@@ -51,7 +51,7 @@ def demo():
     
     price = get_stock_price("NFLX")
     print("truaxbp: NFLX Price", price)
-    market_cap = get_stock_current_market_cap("NXFL")
+    market_cap = get_stock_current_market_cap("NFLX")
     print("truaxbp: NFLX Market Cap", market_cap)
     
     
