@@ -1,6 +1,7 @@
 # utilities.py
 # Bill Nicholson
 # nicholdw@ucmail.uc.edu
+# Study these functions and you can use them in your projects. 
 
 from bs4 import BeautifulSoup
 import sys
