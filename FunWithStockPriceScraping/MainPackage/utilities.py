@@ -3,7 +3,7 @@
 # nicholdw@ucmail.uc.edu
 # Study these functions and you can use them in your projects. 
 
-from bs4 import BeautifulSoup
+from bs4 import *
 import sys
 import requests
 
@@ -49,6 +49,10 @@ def demo():
     market_cap = get_stock_current_market_cap("GOOGL")
     print("nicholdw: GOOGL Market Cap", market_cap)
     
+    price = get_stock_price("AAPL")
+    print("habanaj: AAPL Price", price)
+    market_cap = get_stock_current_market_cap("AAPL")
+    print("habanaj: AAPL Market Cap", market_cap)
     
 def buildPortfolio():
     # Build a Portfolio and scrape that
