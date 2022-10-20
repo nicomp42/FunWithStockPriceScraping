@@ -63,10 +63,14 @@ def demo():
     market_cap = get_stock_current_market_cap("NUE")
     print("wood2ao: NUE Market Cap", market_cap)
     
+    price = get_stock_price("ORCL")
+    print("nguye2m6: ORCL Price", price)
+    market_cap = get_stock_current_market_cap("ORCL")
+    print("nguye2m6: ORCL Market Cap", market_cap)
     
 def buildPortfolio():
     # Build a Portfolio and scrape that
-    myPortfolio = {"Google":"GOOGL", "Coke":"KO","Procter and Gamble":"PG","Home Depot":"HD"}
+    myPortfolio = {"Google":"GOOGL", "Coke":"KO","Procter and Gamble":"PG","Home Depot":"HD", "Oracle":"ORCL"}
 #    for i in range(0,100000000):
     for key in myPortfolio:
         print(myPortfolio[key] + "...")
