@@ -48,6 +48,11 @@ def demo():
     print("nicholdw: GOOGL Price", price)
     market_cap = get_stock_current_market_cap("GOOGL")
     print("nicholdw: GOOGL Market Cap", market_cap)
+    #my stock
+    price = get_stock_price("BLK")
+    print("zimmese: BLK Price", price)
+    market_cap = get_stock_current_market_cap("BLK")
+    print("zimmese: BLK Market Cap", market_cap)
     
     
 def buildPortfolio():
