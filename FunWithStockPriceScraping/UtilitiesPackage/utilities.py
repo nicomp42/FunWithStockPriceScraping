@@ -45,10 +45,10 @@ def demo():
     Test our functions
     '''
     price = get_stock_price("GOOGL")
-    print("Price", price)
+    print("nicholdw: GOOGL Price", price)
 
     market_cap = get_stock_current_market_cap("GOOGL")
-    print("Market Cap", market_cap)
+    print("nicholdw: GOOGL Market Cap", market_cap)
     
     
 def buildPortfolio():
