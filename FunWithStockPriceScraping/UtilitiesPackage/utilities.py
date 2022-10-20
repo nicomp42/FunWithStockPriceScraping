@@ -63,6 +63,12 @@ def demo():
     market_cap = get_stock_current_market_cap("NUE")
     print("wood2ao: NUE Market Cap", market_cap)
     
+    price = get_stock_price("IBM")
+    print("lindemkj: IBM Price", price)
+    market_cap = get_stock_current_market_cap("IBM")
+    print("lindemkj: IBM Market Cap", market_cap)
+    
+    
     
 def buildPortfolio():
     # Build a Portfolio and scrape that
