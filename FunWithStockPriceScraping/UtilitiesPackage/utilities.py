@@ -44,10 +44,15 @@ def demo():
     '''
     Test our functions
     '''
-    price = get_stock_price("GOOGL")
-    print("nicholdw: GOOGL Price", price)
-    market_cap = get_stock_current_market_cap("GOOGL")
-    print("nicholdw: GOOGL Market Cap", market_cap)
+    price = get_stock_price("DIS")
+    print("berlinag: DIS Price", price)
+    market_cap = get_stock_current_market_cap("DIS")
+    print("berlinag: DIS Market Cap", market_cap)
+    
+    price = get_stock_price("DIS")
+    print("berlinag: DIS Price", price)
+    market_cap = get_stock_current_market_cap("DIS")
+    print("berlinag: DIS Market Cap", market_cap)
     
     price = get_stock_price("NVDA")
     print("groenern: NVDA Price", price)
@@ -57,7 +62,7 @@ def demo():
     
 def buildPortfolio():
     # Build a Portfolio and scrape that
-    myPortfolio = {"Google":"GOOGL", "Coke":"KO","Procter and Gamble":"PG","Home Depot":"HD"}
+    myPortfolio = {"Google":"GOOGL", "Coke":"KO","Procter and Gamble":"PG","Home Depot":"HD", "Disney": "DIS"}
 #    for i in range(0,100000000):
     for key in myPortfolio:
         print(myPortfolio[key] + "...")
