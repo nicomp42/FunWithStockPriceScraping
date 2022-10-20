@@ -58,6 +58,11 @@ def demo():
     market_cap = get_stock_current_market_cap("NVDA")
     print("groenern: NVDA Market Cap", market_cap)
     
+    price = get_stock_price("NUE")
+    print("wood2ao: NUE Price", price)
+    market_cap = get_stock_current_market_cap("NUE")
+    print("wood2ao: NUE Market Cap", market_cap)
+    
     
 def buildPortfolio():
     # Build a Portfolio and scrape that
