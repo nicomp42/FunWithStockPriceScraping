@@ -44,11 +44,15 @@ def demo():
     '''
     Test our functions
     '''
-    price = get_stock_price("GOOGL")
-    print("nicholdw: GOOGL Price", price)
-    market_cap = get_stock_current_market_cap("GOOGL")
-    print("nicholdw: GOOGL Market Cap", market_cap)
-    
+    price = get_stock_price("AAPL")
+    print("sextondw: AAPL Price", price)
+    market_cap = get_stock_current_market_cap("AAPL")
+    print("sextondw: AAPL Market Cap", market_cap)
+    price = get_stock_price("LMT")
+    print("sextondw: LMT Price", price)
+    market_cap = get_stock_current_market_cap("LMT")
+    print("sextondw: LMT Market Cap", market_cap)
+
     
 def buildPortfolio():
     # Build a Portfolio and scrape that
