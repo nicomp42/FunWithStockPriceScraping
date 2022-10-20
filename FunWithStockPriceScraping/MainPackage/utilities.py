@@ -48,6 +48,9 @@ def demo():
     print("nicholdw: GOOGL Price", price)
     market_cap = get_stock_current_market_cap("GOOGL")
     print("nicholdw: GOOGL Market Cap", market_cap)
+    print("cox2mr: RBLX Price", price)
+    market_cap = get_stock_current_market_cap("RBLX")
+    print("cox2mr: RBLX Market Cap", market_cap)    
     
     
 def buildPortfolio():
