@@ -48,7 +48,11 @@ def demo():
     print("nicholdw: GOOGL Price", price)
     market_cap = get_stock_current_market_cap("GOOGL")
     print("nicholdw: GOOGL Market Cap", market_cap)
-    
+
+    price = get_stock_price("COST")
+    print("perezbd: COST Price", price)
+    market_cap = get_stock_current_market_cap("COST")
+    print("perezbd: COST Market Cap", market_cap) 
     
 def buildPortfolio():
     # Build a Portfolio and scrape that
