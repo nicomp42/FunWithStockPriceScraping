@@ -52,7 +52,7 @@ def demo():
     price = get_stock_price("TSLA")
     print("hutzjm: TSLA Price", price)
     market_cap = get_stock_current_market_cap("TSLA")
-    print("nicholdw: TSLA Market Cap", market_cap) 
+    print("nicholdw: TSLA Market Cap", market_cap)
     
     
 def buildPortfolio():
