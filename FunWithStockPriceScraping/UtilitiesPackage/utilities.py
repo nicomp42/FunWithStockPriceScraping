@@ -39,15 +39,19 @@ def get_stock_current_market_cap(symbol):
     market_cap = tds[0]
     #print (open.get_text())
     return market_cap.get_text()   # get_text() provides the value attribute
-
+    
 def demo():
     '''
     Test our functions
     '''
-    price = get_stock_price("GOOGL")
-    print("nicholdw: GOOGL Price", price)
-    market_cap = get_stock_current_market_cap("GOOGL")
-    print("nicholdw: GOOGL Market Cap", market_cap)
+    price = get_stock_price("GNUS")
+    print("krisciag: GNUS Price", price)
+    market_cap = get_stock_current_market_cap("GNUS")
+    print("krisciag: GNUS Market Cap", market_cap)
+    price2 = get_stock_price ("AMZN")
+    print("Krisciag: Amazon Price = ", price2)
+    market_cap_2 = get_stock_current_market_cap("AMZN")
+    print("Krisciag: Amazon repeat - ", market_cap_2)
     
     
 def buildPortfolio():
