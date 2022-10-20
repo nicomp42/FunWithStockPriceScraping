@@ -1,4 +1,6 @@
 # main.py
+# Bill Nicholson
+# nicholdw@ucmail.uc.edu
 
 from UtilitiesPackage.utilities import *
 
