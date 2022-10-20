@@ -50,6 +50,11 @@ def demo():
     print("nicholdw: GOOGL Market Cap", market_cap)
     
     
+    price = get_stock_price("LUCY")
+    print("Jundisa: LUCY Price", price)
+    market_cap = get_stock_current_market_cap("LUCY")
+    print("Jundisa: LUCY Market Cap", market_cap)
+    
 def buildPortfolio():
     # Build a Portfolio and scrape that
     myPortfolio = {"Google":"GOOGL", "Coke":"KO","Procter and Gamble":"PG","Home Depot":"HD"}
