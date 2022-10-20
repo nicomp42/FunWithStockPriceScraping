@@ -13,6 +13,7 @@ def get_stock_price(symbol):
     soup = BeautifulSoup(page.content, 'html.parser')
 
     price = soup.find("fin-streamer", {"data-symbol":symbol})  # Note the dictionary
+
     #print(price)
     #print (price.get_text())
     return price.get_text()   # get_text() provides the value attribute
@@ -48,11 +49,16 @@ def demo():
     print("nicholdw: GOOGL Price", price)
     market_cap = get_stock_current_market_cap("GOOGL")
     print("nicholdw: GOOGL Market Cap", market_cap)
+    #duplicate
+    price = get_stock_price("AAPL")
+    print("suthahda: AAPL Price", price)
+    market_cap = get_stock_current_market_cap("AAPL")
+    print("suthahda: AAPL Market Cap", market_cap)
     
     
 def buildPortfolio():
     # Build a Portfolio and scrape that
-    myPortfolio = {"Google":"GOOGL", "Coke":"KO","Procter and Gamble":"PG","Home Depot":"HD"}
+    myPortfolio = {"GOOGLE":"GOOGL", "Coke":"KO","Procter and Gamble":"PG","Home Depot":"HD"}
 #    for i in range(0,100000000):
     for key in myPortfolio:
         print(myPortfolio[key] + "...")
