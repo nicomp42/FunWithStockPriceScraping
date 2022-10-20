@@ -1,4 +1,7 @@
 # utilities.py
+# Bill Nicholson
+# nicholdw@ucmail.uc.edu
+
 from bs4 import BeautifulSoup
 import sys
 import requests
