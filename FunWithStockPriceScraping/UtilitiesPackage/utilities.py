@@ -49,8 +49,8 @@ def demo():
     market_cap = get_stock_current_market_cap("GOOGL")
     print("nicholdw: GOOGL Market Cap", market_cap)
     
-    price = get_stock_price("GOOGL")
-    print("wood2ao: GOOGL Price", price)
+    price = get_stock_price("NUE")
+    print("wood2ao: NUE Price", price)
     market_cap = get_stock_current_market_cap("NUE")
     print("wood2ao: NUE Market Cap", market_cap)
     
