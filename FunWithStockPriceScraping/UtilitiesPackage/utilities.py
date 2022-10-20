@@ -1,6 +1,6 @@
 # utilities.py
-# Mark Johnson
-# johns8mk@mail.uc.edu
+# Bill Nicholson
+# nicholdw@ucmail.uc.edu
 # Study these functions and you can use them in your projects. 
 
 from bs4 import BeautifulSoup
@@ -56,7 +56,7 @@ def demo():
     
 def buildPortfolio():
     # Build a Portfolio and scrape that
-    myPortfolio = {"Google":"GOOGL", "Coke":"KO","Procter and Gamble":"PG","Home Depot":"HD", "Apple":"AAPL"}
+    myPortfolio = {"Google":"GOOGL", "Coke":"KO","Procter and Gamble":"PG","Home Depot":"HD"}
 #    for i in range(0,100000000):
     for key in myPortfolio:
         print(myPortfolio[key] + "...")
