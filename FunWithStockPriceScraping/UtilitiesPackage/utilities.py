@@ -1,6 +1,6 @@
 # utilities.py
-# Bill Nicholson
-# nicholdw@ucmail.uc.edu
+# Roger Poduska
+# poduskrd@mail.uc.edu
 # Study these functions and you can use them in your projects. 
 
 from bs4 import BeautifulSoup
@@ -49,6 +49,11 @@ def demo():
     market_cap = get_stock_current_market_cap("GOOGL")
     print("nicholdw: GOOGL Market Cap", market_cap)
     
+    #New addition
+    price = get_stock_price("GME")
+    print("poduskrd: GME Price", price)
+    market_cap = get_stock_current_market_cap("GME")
+    print("poduskrd: GME Market Cap", market_cap)
     
 def buildPortfolio():
     # Build a Portfolio and scrape that
