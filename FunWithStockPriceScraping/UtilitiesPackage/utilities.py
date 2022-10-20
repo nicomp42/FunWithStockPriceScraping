@@ -1,6 +1,6 @@
 # utilities.py
-# Bill Nicholson
-# nicholdw@ucmail.uc.edu
+# Evan Sasowsky
+# sasowser@mail.uc.edu
 # Study these functions and you can use them in your projects. 
 
 from bs4 import BeautifulSoup
@@ -48,11 +48,15 @@ def demo():
     print("nicholdw: GOOGL Price", price)
     market_cap = get_stock_current_market_cap("GOOGL")
     print("nicholdw: GOOGL Market Cap", market_cap)
+    price = get_stock_price("FITB")
+    print("sasowser: FITB Price", price)
+    market_cap = get_stock_current_market_cap("FITB")
+    print("sasowser: FITB Market Cap", market_cap)
     
     
 def buildPortfolio():
     # Build a Portfolio and scrape that
-    myPortfolio = {"Google":"GOOGL", "Coke":"KO","Procter and Gamble":"PG","Home Depot":"HD"}
+    myPortfolio = {"Cloudflare":"NET", "Netflix":"NFLX","VMware":"VMW","Fifth Third Bank":"FITB"}
 #    for i in range(0,100000000):
     for key in myPortfolio:
         print(myPortfolio[key] + "...")
